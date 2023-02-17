@@ -1,0 +1,102 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    background-color: hsl(0, 0%, 76%);
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: hsl(0, 2%, 90%);
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    border: 2px solid hsl(300, 100%, 50%);
+    border-radius: 50%;
+    box-shadow: 4px 0px 4px black;
+    padding: 20px;
+}
+h2 {
+    border-bottom:3px dashed #000000;
+    box-shadow: 2px 3px 2px #000000;
+    font-size: 24px;
+    background-color: hsl(0, 0%, 100%);
+}
+h2::before {
+    color:hsl(300, 100%, 50%);
+    content: "Konferencja";
+    font-weight: 600;
+    padding-right: 2px;
+}
+p {
+    text-indent: 30px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+p::first-letter {
+    color: hsl(300, 100%, 50%);
+    font-size: 24px;
+    font-weight: 600;
+}
+p::first-line {
+color: hsl(120, 100%, 25%)'
+}
+p::first-line {
+    color: hsl(120, 100%, 25%);
+}
+ul {
+    color: hsl(240, 100%, 50%);
+}
+a {
+    text-decoration: none;
+}
+#blok1 {
+    position: relative;
+}
+#zegar {
+    position: absolute;
+    opacity: 0.5;
+    left: 1150px;
+    top: 0px;
+}
+#blok2 {
+    border: 3px solid hsl(350, 100%, 88%);
+    font-size: 12px;
+    background-color: hsla(0, 0%, 93%, 0.4);
+    width: 200px;
+    box-shadow: inset 4px 4px 4px hsl(0, 0%, 50%), inset -4px -4px 4px hsl(0, 0%, 50%);
+    position: absolute;
+    left: 1150px;
+    top: -300px;
+    text-align: left;
+}
+#aka1 {
+    padding-right:70px ;
+}
+#aka3 {
+    padding: 0px 70px 0px 70px;
+}
+.blok {
+    width: 150px;
+    height: 150px;
+    border: 4px solid yellow;
+    background-color: hsl(300, 100%, 50%, 0.25);
+}
+#blok4 {
+    position: absolute;
+    left: -200px;
+    top: -110px;
+}
+#blok5 {
+    position: absolute;
+    left: -100px;
+    top: -10px;
+}
+#blok3 {
+    background: url(../photos/2.jpg) repeat-x top, url(../photos/2.jpg) repeat-x bottom;;
+}
+#aka2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
