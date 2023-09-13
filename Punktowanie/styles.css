@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#naglowek {
+    padding: 15px;
+    background-color: rgb(221, 185, 255);
+    text-align: center;
+}
+#lewy_odyslacze {
+    float: left;
+    width: 25%;
+    background-color: navajowhite;
+}
+#centrum_punktowanie {
+    float: left;
+    width: 50%;
+    background-color: gold;
+}
+#prawa_obrazek {
+    float: right;
+    width: 25%;
+    background-color: bisque;
+}
+img {
+    width: 50%;
+}
+#stopka {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: aquamarine;
+}
+a {
+    font-weight: 600;
+    text-decoration: none;
+}
