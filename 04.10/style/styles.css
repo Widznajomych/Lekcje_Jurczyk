@@ -1,0 +1,69 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    background-color: coral;
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    width: 300px;
+    background-color: aquamarine;
+    padding: 25px;
+    float: left;
+    height: 1100px;
+}
+section {
+ width: 800px;
+ background-color: blueviolet;
+ padding: 25px;
+ float: left;
+ height: 1100px;
+}
+aside {
+    clear: both;
+    background-color: linen;
+    padding: 20px;
+}
+footer {
+    clear: both;
+    background-color: hotpink;
+    padding: 20px;
+}
+body {
+    width: 1200px;
+}
+article {
+    padding: 5px;
+}
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.link_b {
+    display: block;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: rgb(106, 229, 245);
+    transition: 0.2s;
+}
+.link_b:hover {
+    background-color:  rgb(83, 136, 143);
+    color: aliceblue;
+}
+#pkt1 {
+    list-style: lower-greek;
+}
+#pkt2 {
+    list-style: decimal-leading-zero;
+}
+#pkt3 {
+    text-align: right;
+    list-style: hiragana;
+    list-style-position: inside;
+    list-style-image:url("/photos/usmiech_m.png") ;
+}
